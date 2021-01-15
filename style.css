@@ -1,0 +1,81 @@
+@keyframes up{
+    from {transform: translateY(0)}
+    to {transform: translateY(-25px)}
+    /* 100%{transform: translateY(0) } */
+}
+@keyframes down {
+    from {transform: translateY(-25px)}
+    to {transform: translateY(0);}
+}
+
+
+.background{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#rec-small{
+    margin-top: 95px;
+    margin-right: 450px;
+    float: left; 
+}
+#rec-small1{
+    margin-top: 95px;
+    margin-right: 300px;
+    float: left; 
+}
+#rec-small2{
+    margin-top: 95px;
+    margin-right: 150px;
+    float: left; 
+}
+#rec-small3{
+    margin-top: 95px;
+    margin-right: 0px;
+    float: left; 
+}
+#rec-small4{
+    margin-top: 95px;
+    margin-right: 600px;
+    float: left; 
+}
+#rec-big{
+    margin-top: 8px;
+    margin-left: 120px;
+}
+#rec-big1{
+    margin-top: 8px;
+    margin-left: 450px;
+}
+.rec{
+    position: absolute;
+    animation: down 0.5s forwards;
+}
+.rec:hover{
+    animation: up 0.5s both;  
+    cursor: pointer;
+
+
+}
+
+.desc{
+    width: 75px;
+    height: 50px;
+    background-color: salmon;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.5s linear;
+    
+
+}
+
+.rec:hover #desc{
+    transition-delay: 0.15s;
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
