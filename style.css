@@ -3,13 +3,11 @@
 @keyframes up-description{
     from {transform: translateY(0)}
     to {transform: translateY(-175px)}
-    /* 100%{transform: translateY(0) } */
 }
 
 @keyframes up{
     from {transform: translateY(0)}
     to {transform: translateY(-25px)}
-    /* 100%{transform: translateY(0) } */
 }
 @keyframes down {
     from {transform: translateY(-25px)}
@@ -56,7 +54,7 @@ h1{
 }
 #rec-big{
     margin-top: 8px;
-    margin-left: 220px;
+    margin-left: 195px;
     float: left;
   
 }
